@@ -1,0 +1,124 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-27 14:41:55
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 11:46:34
+*/
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+cursor: pointer;
+}
+a{
+	text-decoration:none;
+	color: #000;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+}
+i{
+	font-style: normal;
+}
+input {
+    outline: 0;
+ 
+}
+.onea{
+	width: 7.2rem;
+	height: 0.88rem;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.onea .iconfont {
+	font-size: 0.36rem;
+	color: #00BE81;
+}
+.onea .namea{
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+.oneb{
+	width: 7.2rem;
+	height: 3.14rem;
+	padding-top: 0.88rem;
+	background: url('../img/p-5.png') center;
+	background-size: cover;
+
+}
+.onec{
+	width: 7.2rem;
+	height: 3.20rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.onec .name1{
+	font-size: 0.32rem;
+}
+.onec .name2{
+	padding-bottom: 0.10rem;
+	border-bottom: 0.02rem solid #F2F2F2;
+}
+.oned img{
+	width: 7.2rem;
+}
+.onef{
+
+	padding: 0 0.24rem 0.24rem;
+	background: #ECEFF2;
+}
+.onef img{
+	width: 6.72rem;
+}
+.oneg img{
+	width: 7.2rem;
+}
+
+.sixb{
+	width: 7.2rem;
+	height: 6.60rem;
+	margin-top: 0.3rem;
+	box-sizing: border-box;
+	padding: 0 0.12rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+}
+.sixb .two{
+	width: 3.3rem;
+	height: 3.2rem;
+	background: #FFFFFF;
+}
+.sixb .two img{
+	width: 3.3rem;
+}
+.sixb .two p{
+	margin: 0.05rem ;
+}
+.sixa{
+    width: 7.2rem;
+	height: 0.96rem;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	justify-content: space-around;
+	padding: 0 2.80rem;
+
+}.sixa .onea{
+	width: 0.06rem;
+	height: 0.02rem;
+	/* background: #4D4E51; */
+}

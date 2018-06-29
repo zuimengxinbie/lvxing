@@ -1,0 +1,108 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-22 20:15:15
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 11:46:11
+*/
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+	text-decoration:none;
+	color: #000;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+}
+i{
+	font-style: normal;
+}
+input {
+    outline: 0;
+ 
+}
+
+body{
+	background: #292929;
+}
+
+.onek{
+	width: 100%;
+	height: 0.94rem;
+	background: #292929;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.onek .threea{
+	width: 0.80rem;
+	height: 0.80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.onek .threea a{
+	display: block;
+	width: 0.80rem;
+	height: 0.80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.onek .threea span{
+	font-size: 0.40rem;
+	color: #777B86;
+	
+}
+
+
+.one{
+	width: 1.36rem;
+	height: 1.36rem;
+	border-radius: 50%;
+	margin: 4.78rem auto 0;
+	background: #00BE85;
+	line-height: 1.36rem;
+	text-align: center;
+	cursor: pointer;
+}
+.one span{
+	font-size: 0.48rem;
+	color: #fff;
+}
+p{
+	margin-top: 0.10rem;
+	text-align: center;
+	color: #5B5B5B;
+	font-size: 0.28rem;
+}
+
+
+.two{
+	width: 0.58rem;
+	height: 0.58rem;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 0.04rem solid #959595;
+	margin: 2.0rem auto 0;
+
+	line-height: 0.50rem;
+	text-align: center;
+	cursor: pointer;
+}
+.two span{
+	font-size: 0.24rem;
+	color: #959595;
+}

@@ -1,0 +1,395 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-22 21:03:09
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 11:46:17
+*/
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+cursor: pointer;
+}
+a{
+	text-decoration:none;
+	color: #000;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+}
+i{
+	font-style: normal;
+}
+input {
+    outline: 0;
+ 
+}
+.onek{
+	width: 100%;
+	height: 0.94rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border: 2px solid #F2F2F2;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.onek .threea{
+	width: 0.80rem;
+	height: 0.80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.onek .threea a{
+	display: block;
+	width: 0.80rem;
+	height: 0.80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.onek .threea span{
+	font-size: 0.40rem;
+	color: #777B86;
+	
+}
+
+
+.banner{
+	width: 7.2rem;
+	height: 2.80rem;
+	margin-top: 0.94rem;
+/* 	background-attachment: fixed; */
+}
+.swiper-container{
+	width: 7.2rem;
+	height: 2.80rem;
+}
+.swiper-container img{
+	width: 7.2rem;
+
+}
+
+.bigone{
+	width: 7.2rem;
+	height: 0.94rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	background: #fff;
+
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bigone .onea{
+	width: 1.15rem;
+	height: 0.94rem;
+	line-height: 0.94rem;
+	text-align: center;
+	color: #828282;
+	cursor: pointer;
+}
+.bigone .oneb{
+	width: 5.40rem;
+	height: 0.58rem;
+	border-radius: 0.10rem;
+	background: #F2F3F7;
+	line-height: 0.58rem;
+}
+.bigone .oneb span{
+	margin-left: 0.30rem;
+	font-size: 0.28rem;
+
+
+}
+.bigone .oneb i{
+	margin-left: 4.3rem;
+	font-size: 0.28rem;
+
+}
+
+
+.nav{
+	width: 7.20rem;
+	height: 3.40rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+
+}
+.nav .onea a{
+	display: block;
+	height: 1.20rem;
+		display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+/* 	cursor: pointer; */
+
+
+}
+.nav .onea{
+	width: 20%;
+	height: 1.20rem;
+	box-sizing: border-box;
+	padding: 0 0.32rem;
+
+/* 	background: green; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+/* 	cursor: pointer; */
+}
+.nav .onea .twoa{
+	width: 0.80rem;
+	height: 0.80rem;
+	background: #F85369;
+	border-radius: 50%;
+	line-height: 0.80rem;
+	text-align: center;
+}
+.nav .onea .twoa span{
+	font-size: 0.48rem;
+	color: #FBCBD8;
+}
+.nav .onea p{
+	color: #535353;
+}
+
+
+
+.mulu{
+	width: 7.2rem;
+	height: 4.80rem;
+	box-sizing: border-box;
+	/* border-bottom: 0.22rem solid #F0F4F5; */
+	border-top: 0.22rem solid #F0F4F5;
+	padding: 0.20rem 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.mulu .onea{
+	width: 7.2rem;
+	height: 1.89rem;
+	border-bottom: 0.01rem solid #EDEDED;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0.12rem;
+	box-sizing: border-box;
+}
+.mulu .onea .twoa{
+	width: 2.40rem;
+	height: 1.68rem;
+	background: red;
+
+
+}
+.mulu .onea .twoa a{
+	display: block;
+}
+.mulu .onea .twoa img{
+	width: 2.40rem;
+}
+.mulu .onea .twob{
+	width: 4.0rem;
+	height: 1.68rem;
+	box-sizing: border-box;
+	padding: 0.10rem;
+/* 	background: green; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.mulu .onea .twob p{
+	font-size: 0.26rem;
+}
+.mulu .onea .twob p span{
+	margin-left:1rem;
+	font-size: 0.24rem;
+	color: #A7A7A7;
+}
+
+
+.mulu .oneb{
+	width: 7.2rem;
+	height: 1.89rem;
+	
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.26rem;
+	box-sizing: border-box;
+}
+
+.mulu .oneb .threea{
+	width: 2.12rem;
+	height: 1.94rem;
+	background: #FEF2E4;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.mulu .oneb .threea p{
+	font-size: 0.28rem;
+	color: #484641;
+	font-weight: bold;
+}
+.mulu .oneb .threea img{
+	width: 1.80rem;
+}
+
+
+.daohang{
+	width: 7.20rem;
+	height: 1.10rem;
+	display: flex;
+	background: #F0F4F5;
+	justify-content: space-around;
+	align-items: center;
+}
+.daohang p{
+	font-size: 0.26rem;
+	color: #55CFAB;
+}
+.nav-box{
+	width: 
+}
+
+
+.nav-box{
+    width: 7.2rem;
+	height: 2.40rem;
+	border-bottom: 0.01rem solid #EDEDED;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:0.12rem;
+	box-sizing: border-box;
+}
+
+.nav-box .onea{
+    width: 2.40rem;
+	height: 2.08rem;
+
+	background: red;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.nav-box .onea .cq{
+	width: 0.91rem;
+	height: 0.41rem;
+    border-bottom-right-radius:0.20rem;
+	position: absolute;
+	background: #344D58;
+	line-height: 0.41rem;
+	text-align: center;
+	color: #F4FFFF;
+	top: 0;
+	left: 0;
+}
+.nav-box .onea img{
+	width: 2.40rem;
+	height: 1.68rem;
+
+}
+.nav-box .onea p{
+	width: 2.40rem;
+	height: 0.40rem;
+	background: #667383;
+	line-height:0.40rem; 
+	text-align: center; 
+	color: #DBE1E1;
+}
+.nav-box .oneb{
+	width: 4.0rem;
+	height: 2.08rem;
+	box-sizing: border-box;
+	padding: 0.10rem;
+/* 	background: green; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.nav-box .oneb p{
+	font-size: 0.26rem;
+}
+.nav-box .oneb p span{
+	margin-left:1rem;
+	font-size: 0.24rem;
+	color: #A7A7A7;
+}
+
+
+.footer{
+	width: 7.2rem;
+	height: 9.16rem;
+	background: #F6F7FB;
+
+}
+.footer .sixa{
+    width: 7.2rem;
+	height: 0.96rem;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	justify-content: space-around;
+	padding: 0 2.80rem;
+
+}
+.footer .sixa .onea{
+	width: 0.06rem;
+	height: 0.02rem;
+	background: #4D4E51;
+}
+
+.footer .sixb{
+	width: 7.2rem;
+	height: 6.60rem;
+	box-sizing: border-box;
+	padding: 0 0.12rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+}
+.footer .sixb .two{
+	width: 3.3rem;
+	height: 3.2rem;
+	background: #FFFFFF;
+}
+.footer .sixb .two img{
+	width: 3.3rem;
+}
+.footer .sixb .two p{
+	margin: 0.05rem ;
+}
+
+.sixc{
+	width: 7.2rem;
+	height:2.00rem;	
+}
+.sixc img{
+	width: 2.34rem;
+	height: 0.83rem;
+	margin: 0.50rem auto 0;
+}

@@ -1,0 +1,246 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-22 16:14:48
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 11:53:57
+*/
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+	text-decoration:none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+	color: #000;
+}
+i{
+	font-style: normal;
+}
+input {
+    outline: 0;
+ 
+}
+.big{
+	width: 7.20rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	background: #fff;
+	color: #343434;
+	position: fixed;
+
+	top: 0;
+	left: 0;
+	border-bottom: 0.01rem solid #EEEEEE;
+}
+.big .name1{
+	width: 0.50rem;
+	height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	right:0.32rem ;
+	line-height: 0.88rem;
+	text-align: center;
+	color: #0BC58A;
+}
+.big .name1 span{
+	font-size: 0.32rem;
+}
+
+.bigone{
+	width: 7.2rem;
+	height: 0.94rem;
+/* 	margin-top: 0.89rem; */
+    background: #fff;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0.89rem;
+	left: 0;
+}
+.bigone .onea{
+	width: 1.15rem;
+	height: 0.94rem;
+	line-height: 0.94rem;
+	text-align: center;
+	color: #828282;
+}
+.bigone .oneb{
+	width: 5.40rem;
+	height: 0.58rem;
+	border-radius: 0.29rem;
+	background: #F2F3F7;
+	line-height: 0.58rem;
+}
+.bigone .oneb span{
+	margin-left: 0.30rem;
+	font-size: 0.28rem;
+
+}
+
+.footer{
+	width: 7.2rem;
+	height: 11rem;
+	margin-top: 1.83rem;
+	background: #F6F7FB;
+	display: flex;
+	justify-content: space-between;
+}
+.footer .twoa{
+	width: 1.44rem;
+	height: 11rem;
+/* 	background: yellowgreen; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.footer .twoa .twoacq{
+	width: 1.44rem;
+	height: 11rem;
+/* 	background: yellowgreen; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	top: 1.83rem;
+	left: 0;
+}
+.footer .twoa .threea{
+	width: 100%;
+	height: 1.02rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #F3F3F3;
+	border-top: 0.01rem solid #F3F3F3;
+	line-height: 1.02rem;
+	text-align: center;
+	color: #7B7B7B;
+}
+.footer .twoa .threec{
+	border-top: 0rem;
+	color: #42CCA2;
+}
+
+.footer .twoa .threeb{
+	height: 5.8rem;
+}
+.footer .twob{
+	width: 5.76rem;
+	height: 11rem;
+	box-sizing: border-box;
+	padding: 0.32rem;
+
+}
+.footer .twob .foura a{
+	display: block;
+
+}
+.footer .twob .foura{
+
+	width: 100%;
+	height: 3.36rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+
+
+
+.footer .twob .foura .fivea{
+	overflow: hidden;
+	width: 2.48rem;
+	height: 1.60rem;
+	background: red;
+	box-sizing: border-box;
+	cursor: pointer;
+	
+}
+.footer .twob .foura .fivea .namea{
+	margin-top: 0.50rem;
+
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+.footer .twob .foura .fivea .nameb{
+	margin-top: 0.05rem;
+}
+
+.footer .twob .fourb{
+	width: 100%;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	color: #353535;
+	font-weight: bold;
+}
+.footer .twob .fourb span{
+	font-size: 0.30rem;
+}
+.footer .twob .fourc{
+	width: 100%;
+	height: 2.90rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+.footer .twob .fourc .six{
+	width: 1.62rem;
+	height: 0.58rem;
+	background:#fff;
+	line-height: 0.58rem;
+	text-align: center;
+	color: #484848;
+	font-size: 0.22rem;
+	cursor: pointer;
+}
+
+
+.onek{
+	width: 100%;
+	height: 0.94rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border: 2px solid #F2F2F2;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.onek .threea{
+	width: 0.80rem;
+	height: 0.80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.onek .threea a{
+	display: block;
+	width: 0.80rem;
+	height: 0.80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.onek .threea span{
+	font-size: 0.40rem;
+	color: #777B86;
+	
+}
